@@ -1,0 +1,4 @@
+-- 22			average salaries of each shift
+SELECT EMPLOYEE.ESHIFT, AVG(EMPLOYEE.ESALARY) AS 'Average Salary'
+FROM EMPLOYEE
+GROUP BY EMPLOYEE.ESHIFT
